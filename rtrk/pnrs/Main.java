@@ -20,6 +20,7 @@ public class Main
 
 			p.setFood(2);
 			for (int i = 0; i < cats.length; i++)
+                                cats[i].feed(p);
 			System.out.println("Hrane ostalo " + p.getFood());			
 		}
 		catch (IllegalArgumentException e)

@@ -16,5 +16,5 @@ public class Portion
 	}
 
 	
-	private mFood;
+	private float mFood;
 }
