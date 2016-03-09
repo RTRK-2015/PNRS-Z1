@@ -10,18 +10,17 @@ public class Main
 	{
 		Cat[] cats = { new Lion(), new Domestic() };
 		Portion p = new Portion();
-		Listener l = new Listener();
 
 		try
 		{
 			p.setFood(5);
 			for (int i = 0; i < cats.length; i++)
-				cats[i].feed(p);
+				cats[i].feed(p, new Listener());
 			System.out.println("Hrane ostalo " + p.getFood());
 
 			p.setFood(2);
 			for (int i = 0; i < cats.length; i++)
-                                cats[i].feed(p);
+                                cats[i].feed(p, new Listener());
 			System.out.println("Hrane ostalo " + p.getFood());			
 		}
 		catch (IllegalArgumentException e)
