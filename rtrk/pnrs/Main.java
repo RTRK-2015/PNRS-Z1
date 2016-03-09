@@ -1,7 +1,7 @@
 package rtrk.pnrs;
 
 import rtrk.pnrs.cats.*;
-import rtrk.pnrs.food.Portion;
+import rtrk.pnrs.food.*;
 
 
 public class Main
@@ -10,6 +10,7 @@ public class Main
 	{
 		Cat[] cats = { new Lion(), new Domestic() };
 		Portion p = new Portion();
+		Listener l = new Listener();
 
 		try
 		{
