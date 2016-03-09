@@ -6,7 +6,7 @@ public class Domestic extends Cat
 {
 	public String say()
 	{
-		return "Domestic";
+		return "Meow";
 	}
 
 	public void feed(Portion p)

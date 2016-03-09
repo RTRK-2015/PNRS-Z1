@@ -6,7 +6,7 @@ public class Lion extends Cat
 {
 	public String say()
 	{
-		return "Lion";
+		return "Roar";
 	}
 
 	public void feed(Portion p)
